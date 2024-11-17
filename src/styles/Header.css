@@ -1,0 +1,84 @@
+/* Header Component */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+header.scrolled {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222;
+  color: #ffffff;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1.7rem !important;
+  color: #007bff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.nav-link {
+  font-size: 1.1rem !important;
+  color: white !important;
+  margin: 0 10px;
+  position: relative;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #007bff;
+  transition: width 0.3s;
+  margin: auto;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: #007bff !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 0.9rem;
+    margin: 1px 0;
+  }
+
+  .nav-item {
+    margin: 2px 0;
+  }
+}
