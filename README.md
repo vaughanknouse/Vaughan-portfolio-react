@@ -49,7 +49,7 @@ To install my Portfolio project, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/vaughanknouse/React-Portfolio.git
+   git clone https://github.com/vaughanknouse/vaughan-knouse-portfolio.git
    ```
 
 2. **Install Node.js**: Ensure that the current version of Node.js is installed on your machine.
@@ -100,7 +100,7 @@ The following screenshot demonstrates the application's functionality and appear
 
 ## Links \*\*\*
 
-GitHub Repository: <https://github.com/vaughanknouse/Vaughan-portfolio>
+GitHub Repository: <https://github.com/vaughanknouse/vaughan-knouse-portfolio>
 
 Deployed Application Link: \*\*\*
 
