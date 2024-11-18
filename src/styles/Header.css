@@ -1,4 +1,4 @@
-/* Header Component */
+/* Header styling */
 header {
   position: sticky;
   top: 0;
@@ -7,18 +7,9 @@ header {
   transition: box-shadow 0.3s ease;
 }
 
-header.scrolled {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Navbar */
+/* Navbar styling */
 .navbar {
   background-color: #222;
-  color: #ffffff;
-}
-
-.navbar-brand,
-.nav-link {
   color: #ffffff;
 }
 
@@ -67,11 +58,16 @@ header.scrolled {
   font-weight: bold;
 }
 
+.nav-link svg {
+  font-size: 1.2rem;
+  color: inherit;
+}
+
 .nav-item {
   margin: 5px 0;
 }
 
-/* Responsive */
+/* Responsive styling */
 @media (max-width: 768px) {
   .nav-link {
     font-size: 0.9rem;

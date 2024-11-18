@@ -1,4 +1,8 @@
+// Link and useLocation components
 import { Link, useLocation } from 'react-router-dom';
+
+// Import icons from react-icons and custom CSS for the Header component
+import { FaUser, FaBriefcase, FaFileAlt, FaEnvelope } from 'react-icons/fa';
 import '../styles/Header.css';
 
 function Header() {
@@ -12,7 +16,7 @@ function Header() {
             className='navbar-brand fw-bold d-flex align-items-center'
             to='/'>
             <img
-              src='assets/images/vk-favicon.ico'
+              src='/assets/images/vk-favicon.ico'
               alt='favicon'
               className='me-2'
               style={{ width: '30px', height: '28px' }}
@@ -37,8 +41,7 @@ function Header() {
                     location.pathname === '/about' ? 'active' : ''
                   }`}
                   to='/about'>
-                  <i className='fas fa-user me-1'></i>
-                  About
+                  <FaUser className='me-1' /> About
                 </Link>
               </li>
               <li className='nav-item'>
@@ -47,8 +50,7 @@ function Header() {
                     location.pathname === '/portfolio' ? 'active' : ''
                   }`}
                   to='/portfolio'>
-                  <i className='fas fa-briefcase me-1'></i>
-                  Portfolio
+                  <FaBriefcase className='me-1' /> Portfolio
                 </Link>
               </li>
               <li className='nav-item'>
@@ -57,8 +59,7 @@ function Header() {
                     location.pathname === '/resume' ? 'active' : ''
                   }`}
                   to='/resume'>
-                  <i className='fas fa-file-alt me-1'></i>
-                  Resume
+                  <FaFileAlt className='me-1' /> Resume
                 </Link>
               </li>
               <li className='nav-item'>
@@ -67,8 +68,7 @@ function Header() {
                     location.pathname === '/contact' ? 'active' : ''
                   }`}
                   to='/contact'>
-                  <i className='fas fa-envelope me-1'></i>
-                  Contact
+                  <FaEnvelope className='me-1' /> Contact
                 </Link>
               </li>
             </ul>
