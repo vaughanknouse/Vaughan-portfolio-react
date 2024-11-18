@@ -31,7 +31,7 @@ The project follows a modular approach, with each section clearly defined and st
 - **Bootstrap 5**: Framework for responsive design, including grid layout, components, and utilities.
 - **CSS3**: Styling language for creating responsive layouts and visually appealing designs.
 - **JavaScript**: Used for dynamic content, form handling, and interactive elements.
-- **Font Awesome**: Icon library used for social media icons and other symbols throughout the site.
+- **react-icons**:\*\*\*
 
 ## Features \*\*\*
 
@@ -84,19 +84,23 @@ The following screenshot demonstrates the application's functionality and appear
 
 **Home with Header and About Me:**
 
-![Image of Home with Header and About Me.](assets/images/portfolio-image-home-header-about-me.png)
+![Image of Home Page with Header and Footer.](assets/images/portfolio-home-header-footer.png)
+
+**About Me Page:**
+
+![Image of About Me Page.](assets/images/portfolio-about-me.png)
 
 **Portfolio with Projects:**
 
-![Image of Portfolio with Projects.](assets/images/portfolio-image-portfolio.png)
+![Image of Portfolio with Projects.](assets/images/portfolio-portfolio.png)
 
-**Resume with Skills:**
+**Resume Page with Skills:**
 
-![Image of Resume with Skills.](assets/images/portfolio-image-resume.png)
+![Image of Resume with Skills.](assets/images/portfolio-resume.png)
 
-**Contact and Footer:**
+**Contact Me Page:**
 
-![Image of Contact with Footer.](assets/images/portfolio-image-contact-footer.png)
+![Image of Contact with Footer.](assets/images/portfolio-contact-footer.png)
 
 ## Links \*\*\*
 
@@ -109,8 +113,6 @@ Deployed Application Link: \*\*\*
 [ChatGPT](https://chatgpt.com/?oai-dm=1)
 
 [Bootstrap](https://getbootstrap.com/)
-
-[Font Awesome](https://fontawesome.com/icons/link?s=solid)
 
 ## License
 
